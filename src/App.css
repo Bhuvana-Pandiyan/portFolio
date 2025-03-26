@@ -13,8 +13,8 @@ header ul li{
 }
 .mobile-navd{
 
-  @apply fixed  top-11  bg-black w-full h-full;
+  @apply fixed  top-10  bg-black w-full h-full;
 }
 .mobile-navd li{
- @apply w-full text-center border-2
+ @apply w-full text-center 
 }
