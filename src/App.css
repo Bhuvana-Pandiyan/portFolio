@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+header ul li{
+  @apply px-2
+}
+.bg-primary{
+  background:"black";
+}
+.bg-sendary{
+  background:"black";
+}
+.mobile-navd{
+
+  @apply fixed  top-11  bg-black w-full h-full;
+}
+.mobile-navd li{
+ @apply w-full text-center border-2
+}
