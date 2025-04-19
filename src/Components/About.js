@@ -1,14 +1,21 @@
 import Image from"../Image/girl1.png"
+import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 export function About(){
+
     return<section className=" flex flex-col md:flex-row px-4 py-32 mobile-navd justify-center">
-        <div className="w-1/2" >
-<img src={Image} className="w-1/2"/>
+        <div className="w-1/3 pr-4 ..." >
+        <img src={Image}/>
         </div>
-        <div className="flex justify-center">
-        <div className="flex  flex-col justify-center">
+        <div className="flex justify-center w-1/2  ">
+        <div className="border-2 border-indigo-600 w-full h-full ... flex flex-col justify-center text-white">
            
-                <h1 className="text-4xl text-white border-b-4 mb-5 border-green-700 font-bold">About Me</h1>
-                <p className="text-2xl text-white">dfghjk</p>
+           <div className="flex flex-col  items-center ">
+                <h1 className="text-2xl  flex flex-col justify-center font-hero-font me">Experince</h1>
+                </div>
+                <div>
+                    <div></div>
+                <p className="text-2xl pl-7 ..."> hi </p>
+                </div>
                 </div>
        
         </div>
