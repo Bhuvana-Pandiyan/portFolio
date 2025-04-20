@@ -1,6 +1,6 @@
 import coffee from "../Image/coffee.jpeg"
 export  default function Project (){
-    return<section className=" flex flex-col px-5 py-20 al justify-center mobile-navd  text-white">
+    return<section className=" flex flex-col px-5 py-10 al justify-center mobile-navd  text-white">
         <div className="w-1/2">  
          <div >
             <h1 className="text-3xl  px-10 mb-5 tex-white font-hero-font">Projects</h1> 

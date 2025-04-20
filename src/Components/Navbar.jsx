@@ -11,7 +11,7 @@ export default function Navbar(){
                 </div>
                 <div>
                     <button className="bg-gradient-to-r from-green-400 to-blue-500 text-white hidden md:inline transform transition-transform 
-                    duration -300 hover:scale-105 px-4 py-2 rounded-full">Contact</button>
+                    duration -300 hover:scale-105 px-4 py-2 rounded-full"><a href="#contact"className="hover :text-gray-400">Contact</a></button>
                 </div>
                 </div>
         </nav>
