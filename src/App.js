@@ -11,24 +11,19 @@ import Heros from './Components/Heros';
 import Abouts from './Components/Abouts'
 import Projects from'./Components/Projects'
 import Footer from './Components/Footer';
+import { BrowserRouter } from "react-router-dom";
 function App() {
   return (
+    <BrowserRouter basename="/portfolio">
     <div className="App">
-      {/* <Header />
-      <Hero/>
-      <About/>
-      <Project/>
-      <Contact/> */}
-      <Navbar/>
-      <Heros/>
-      
-      <Abouts/>
-      <Projects/>
-      <Contacts/>
-      {/* <Footer/> */}
-    
- 
+      <Navbar />
+      <Heros />
+      <Abouts />
+      <Projects />
+      <Contacts />
+      {/* <Footer /> */}
     </div>
+  </BrowserRouter>
   );
 }
 

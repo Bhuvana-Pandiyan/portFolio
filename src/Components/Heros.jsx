@@ -1,6 +1,8 @@
 import Image from "../Image/Capture2.png";
-import { FaLinkedin, FaGithub, FaCode } from "react-icons/fa"; 
+import { FaLinkedin, FaGithub, FaCode,FaInstagram  } from "react-icons/fa"; 
 import { SiLeetcode } from "react-icons/si";
+import { Typewriter } from "react-simple-typewriter";
+
 
 export default function Hero() {
     return (
@@ -14,7 +16,15 @@ export default function Hero() {
             <h1 className="text-4xl font-bold">
                 I'm{" "}
                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-500">
-                    Meena Kandasamy
+                <Typewriter
+    words={['Meena Kandasamy']}
+    loop={true}
+    cursor
+    cursorStyle="|"
+    typeSpeed={160}
+    deleteSpeed={100}
+    delaySpeed={2000}
+  />
                 </span>
                 , Front-End Developer
             </h1>
@@ -34,14 +44,17 @@ export default function Hero() {
                 <a href="https://www.linkedin.com/in/meena-kandasamy-68085025a/" target="_blank" rel="noopener noreferrer" className="hover:text-blue-300">
                     <FaLinkedin />
                 </a>
+                <a href="https://www.instagram.com/meena_kandasamy" target="_blank" rel="noopener noreferrer" className="hover:text-pink-500">
+    <FaInstagram />
+  </a>
             </div>
             <div className="mt-4 space-x-4">
                 <button className="bg-gradient-to-r from-green-400 to-blue-500 text-white hidden md:inline transform transition-transform duration-300 hover:scale-105 px-4 py-2 rounded-full">
                   <a href="#project"className="hover :text-gray-400">  Project</a> 
                 </button>
-                <button className="bg-gradient-to-r from-green-400 to-blue-500 text-white hidden md:inline transform transition-transform duration-300 hover:scale-105 px-4 py-2 rounded-full">
+                {/* <button className="bg-gradient-to-r from-green-400 to-blue-500 text-white hidden md:inline transform transition-transform duration-300 hover:scale-105 px-4 py-2 rounded-full">
                     Resume
-                </button>
+                </button> */}
             </div>
           
         </div>

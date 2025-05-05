@@ -45,7 +45,8 @@ const projects = [
                  id:1,
      image:coffee,
   name:"Coffee Shop ",
-   github:"https://github.com/meenakandasamy/Meewithcoffee"
+   github:"https://github.com/meenakandasamy/Meewithcoffee",
+   URl:"https://meenakandasamy.github.io/coffee/"
  
          }
 ];
@@ -63,9 +64,14 @@ const Projects = () => {
               w-full h-48 object-cover" />
               <h3 className="text-2xl font-bold mb-2">{project.name}</h3>
               <p className="text-gray-400 mb-4">{project.technologies}</p>
+              <div className="flex gap-2">
               <a href={project.github} className="inline-block bg-gradient-to-r 
-              from-green-400 to-blue-500 text-white px-4 py-2 rounded-full" target="_blank" 
+              from-green-400 to-blue-500  text-white px-4 py-2 rounded-full" target="_blank" 
               rel="noopener noreferrer">GitHub</a>
+               <a href={project.URl} className="inline-block bg-gradient-to-r 
+              from-green-400 to-blue-500 text-white px-4 py-2 pl-2 rounded-full" target="_blank" 
+              rel="noopener noreferrer"> Mee With Coffee</a>
+              </div>
             </div>
           ))}
         </div>
